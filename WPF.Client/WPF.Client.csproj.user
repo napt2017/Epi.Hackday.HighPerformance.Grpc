@@ -7,7 +7,7 @@
     </ApplicationDefinition>
   </ItemGroup>
   <ItemGroup>
-    <Compile Update="RPCComponent.xaml.cs">
+    <Compile Update="CustomComponents\RPCComponent.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
   </ItemGroup>
@@ -15,7 +15,7 @@
     <Page Update="MainWindow.xaml">
       <SubType>Designer</SubType>
     </Page>
-    <Page Update="RPCComponent.xaml">
+    <Page Update="CustomComponents\RPCComponent.xaml">
       <SubType>Designer</SubType>
     </Page>
   </ItemGroup>
