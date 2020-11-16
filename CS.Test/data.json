@@ -1,0 +1,248 @@
+[
+   {
+      "author":"John-Philip Johansson",
+      "office":"Stockholm, Sweden",
+      "name":"Visual scripting",
+      "createdTime":"2020-11-16T08:44:04.136Z"
+   },
+   {
+      "author":"Zi Ning",
+      "office":"Stockholm, Sweden",
+      "name":"Event abnormal detection in ADX",
+      "createdTime":"2020-11-16T08:44:04.136Z"
+   },
+   {
+      "author":"Cody Merritt Anhorn",
+      "office":"Minneapolis, MN, USA",
+      "name":"Spire - Optimizely (Performance Edge/Experiment)",
+      "createdTime":"2020-11-16T08:44:04.136Z"
+   },
+   {
+      "author":"Peter Gaard",
+      "office":"Minneapolis, MN, USA",
+      "name":"Classic B2B - Integrate Optimizely server side testing into the existing Experiments feature",
+      "createdTime":"2020-11-16T08:44:04.136Z"
+   },
+   {
+      "author":"Ryan Lamansky",
+      "office":"Minneapolis, MN, USA",
+      "name":"Spire - .NET 5 Back-end prototype",
+      "createdTime":"2020-11-16T08:44:04.136Z"
+   },
+   {
+      "author":"Mike Wurm",
+      "office":"Minneapolis, MN, USA",
+      "name":"Implement Crypto Payments Into B2B Commerce",
+      "createdTime":"2020-11-16T08:44:04.136Z"
+   },
+   {
+      "author":"Darwin Zins",
+      "office":"Minneapolis, MN, USA",
+      "name":"B2B Commerce in .NET Core",
+      "createdTime":"2020-11-16T08:44:04.136Z"
+   },
+   {
+      "author":"Ryan Vogel",
+      "office":"Minneapolis MN, USA",
+      "name":"Spire - Styling specific instances of content widgets",
+      "createdTime":"2020-11-16T08:44:04.136Z"
+   },
+   {
+      "author":"Tung Thai",
+      "office":"Hanoi, Vietnam",
+      "name":"Try to deploy and run all PS services using Azure Linux appservice.Understand and try to improve test projects setup",
+      "createdTime":"2020-11-16T08:44:04.136Z"
+   },
+   {
+      "author":"Bela VanderVoort",
+      "office":"Minneapolis MN, USA",
+      "name":"Prettier for c#",
+      "createdTime":"2020-11-16T08:44:04.136Z"
+   },
+   {
+      "author":"Tuan Doan, Viet Anh Nguyen, Bien Nguyen",
+      "office":"Hanoi, Vietnam",
+      "name":"IOT project, tracking electricity consumption. Demo apply for workstation.Make hardware, cloud service to record sensor data, statistics and reporting. Prediction and alarm.",
+      "createdTime":"2020-11-16T08:44:04.136Z"
+   },
+   {
+      "author":"Cuong Vu, Thu Nguyen, Giang Tran",
+      "office":"Hanoi, Vietnam",
+      "name":"Investigate OpenCV: Counting people",
+      "createdTime":"2020-11-16T08:44:04.136Z"
+   },
+   {
+      "author":"Linh Nguyen",
+      "office":"Stockholm, Sweden",
+      "name":"Add ParentComponents field to Jira",
+      "createdTime":"2020-11-16T08:44:04.136Z"
+   },
+   {
+      "author":"Nicklas Israelsson",
+      "office":"Lit, Sweden",
+      "name":"Something with react-three-fiber",
+      "createdTime":"2020-11-16T08:44:04.136Z"
+   },
+   {
+      "author":"Magnus Rahl",
+      "office":"Stockholm, Sweden",
+      "name":"Implement async cart/order API:s in Commerce B2C .NET Core",
+      "createdTime":"2020-11-16T08:44:04.136Z"
+   },
+   {
+      "author":"Per Gunsarfs",
+      "office":"Stockholm, Sweden",
+      "name":"Javascript client for Content REST APIs",
+      "createdTime":"2020-11-16T08:44:04.136Z"
+   },
+   {
+      "author":"Khiem Nguyen",
+      "office":"Hanoi, Vietnam",
+      "name":".NET Microservices architecture with eShopOnContainers sample. Focusing on the communication across microservices",
+      "createdTime":"2020-11-16T08:44:04.136Z"
+   },
+   {
+      "author":"Thinh Truong",
+      "office":"Hanoi, Vietnam",
+      "name":"Using pre-commit to control coding quality",
+      "createdTime":"2020-11-16T08:44:04.136Z"
+   },
+   {
+      "author":"Anders Wahlqvist",
+      "office":"Stockholm, Sweden",
+      "name":"Conversion and ingestion of blood sugar data into a mongo database to perform insulin treatment suggestions",
+      "createdTime":"2020-11-16T08:44:04.136Z"
+   },
+   {
+      "author":"Balaji Kuppusamy",
+      "office":"Stockholm, Sweden",
+      "name":"EShopOnContainers project. Especially running full .net framework apps on windows containers.Implement Rules Engine pattern for some complex business rules within DXP platform",
+      "createdTime":"2020-11-16T08:44:04.136Z"
+   },
+   {
+      "author":"Johan Mårtensson",
+      "office":"Stockholm, Sweden",
+      "name":"Graph-QL Dynamic Schema",
+      "createdTime":"2020-11-16T08:44:04.136Z"
+   },
+   {
+      "author":"Duc Trung Le",
+      "office":"Hanoi, Vietnam",
+      "name":"Introduce Profile Service to manage configuration profiles for Storage Service",
+      "createdTime":"2020-11-16T08:44:04.136Z"
+   },
+   {
+      "author":"Henrik Nystrom",
+      "office":"Wellington, NZ",
+      "name":"Content Delivery via gRPC",
+      "createdTime":"2020-11-16T08:44:04.136Z"
+   },
+   {
+      "author":"Stefan Johansson",
+      "office":"Stockholm, Sweden",
+      "name":"Write a tool to verify consistency of PowerShell scripts pushed to a Git repository",
+      "createdTime":"2020-11-16T08:44:04.136Z"
+   },
+   {
+      "author":"Johan Björnfot",
+      "office":"Stockholm, Sweden",
+      "name":"Common rendering/templating for NCD and fullstack",
+      "createdTime":"2020-11-16T08:44:04.136Z"
+   },
+   {
+      "author":"Carlos Colon, Shilpa Joshi",
+      "office":"Nashua, NH, USA",
+      "name":"Turnstile-middleware for Cloudflare workers.Not sure how much this entails but will, at the very least, do some research on it.",
+      "createdTime":"2020-11-16T08:44:04.136Z"
+   },
+   {
+      "author":"Dustin Sier",
+      "office":"Nashua, NH, USA",
+      "name":"Jupyter Notebook Dashboard for Reporting",
+      "createdTime":"2020-11-16T08:44:04.136Z"
+   },
+   {
+      "author":"Quang Tran",
+      "office":"Hanoi, Vietnam",
+      "name":"Understand Lucene. Implement custom analyzer and tokenizer for a specific language (Vietnamese for example)",
+      "createdTime":"2020-11-16T08:44:04.136Z"
+   },
+   {
+      "author":"Ninh Doan",
+      "office":"Hanoi, Vietnam",
+      "name":"Winform on Net5",
+      "createdTime":"2020-11-16T08:44:04.136Z"
+   },
+   {
+      "author":"Jonas Bergqvist",
+      "office":"Stockholm, Sweden",
+      "name":"Apollo GraphQL, with support for deploying it to CloudFlare, as public endpoint for \"Find v4\"",
+      "createdTime":"2020-11-16T08:44:04.136Z"
+   },
+   {
+      "author":"Bart Sekula",
+      "office":"Krakow, Poland",
+      "name":"Design System implementation in aspnet core",
+      "createdTime":"2020-11-16T08:44:04.136Z"
+   },
+   {
+      "author":"Grzegorz Wiecheć",
+      "office":"Krakow, Poland\tAdd",
+      "name":"Storybook stories to Admin Mode",
+      "createdTime":"2020-11-16T08:44:04.136Z"
+   },
+   {
+      "author":"Kristoffer Balanikas",
+      "office":"London",
+      "name":"Developer tool (repo/sln insight), using net5/c#9/blazor",
+      "createdTime":"2020-11-16T08:44:04.136Z"
+   },
+   {
+      "author":"Per Bjurström",
+      "office":"Stockholm, Sweden",
+      "name":"Automatic upgrades of CMS Core in .NET Core containers",
+      "createdTime":"2020-11-16T08:44:04.136Z"
+   },
+   {
+      "author":"Dmytro Duk",
+      "office":"Stockholm, Sweden",
+      "name":"KQL editor for ad-hoc data queries in VI UI",
+      "createdTime":"2020-11-16T08:44:04.136Z"
+   },
+   {
+      "author":"Bien Le (DXP)",
+      "office":"Hanoi, Vietnam",
+      "name":"Design and Building Enterprise Blazor Applications",
+      "createdTime":"2020-11-16T08:44:04.136Z"
+   },
+   {
+      "author":"Thu Tran",
+      "office":"Hanoi, Vietnam",
+      "name":"Python and apply it in Locust to test API",
+      "createdTime":"2020-11-16T08:44:04.136Z"
+   },
+   {
+      "author":"Ngoc Anh Nguyen",
+      "office":"Hanoi, Vietnam",
+      "name":"High-performance .NET 5 GRPC - Why we call it the game-changer ? :)",
+      "createdTime":"2020-11-16T08:44:04.136Z"
+   },
+   {
+      "author":"Huyen Vu Van,Dang Trung Nguyen",
+      "office":"Hanoi, Vietnam",
+      "name":"Learn Reactjs, make a small app (Interact with CMA if have enough time)",
+      "createdTime":"2020-11-16T08:44:04.136Z"
+   },
+   {
+      "author":"Hung Phan Van",
+      "office":"Hanoi, Vietnam",
+      "name":"Net core and NGINX. Research how Contentful builds CMA",
+      "createdTime":"2020-11-16T08:44:04.136Z"
+   },
+   {
+      "author":"Dao Le, Ba Bu, Long Nguyen Hoang",
+      "office":"Hanoi, Vietnam",
+      "name":"Create a simple React App to integrate with CMA",
+      "createdTime":"2020-11-16T08:44:04.136Z"
+   }
+]
