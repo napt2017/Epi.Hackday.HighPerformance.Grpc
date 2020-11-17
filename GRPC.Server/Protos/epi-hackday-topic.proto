@@ -1,0 +1,26 @@
+syntax = "proto3";
+
+option csharp_namespace = "GRPC.Server";
+
+package EpiHackdayTopic;
+
+service EpiHackdayTopicService {
+	rpc GetAllTopic(Empty) returns (AllHackdayTopic);
+	rpc GetAllTopicStream(Empty) returns (stream HackdayTopic);
+}
+
+message HackdayTopic {
+	int32 id = 1;
+	string name = 2;
+	string createdTime = 3;
+	string author = 4;
+	string office = 5;
+}
+
+message AllHackdayTopic {
+	repeated HackdayTopic hackdayTopics = 1;
+}
+
+message Empty {
+
+}
