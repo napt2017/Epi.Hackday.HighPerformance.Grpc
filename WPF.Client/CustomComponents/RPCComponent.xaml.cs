@@ -1,15 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-using System.Windows;
-using System.Windows.Controls;
-using System.Windows.Data;
-using System.Windows.Documents;
-using System.Windows.Input;
-using System.Windows.Media;
-using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
-using System.Windows.Shapes;
+﻿using System.Windows.Controls;
+using WPF.Client.Models;
 
 namespace WPF.Client
 {
@@ -18,8 +8,12 @@ namespace WPF.Client
     /// </summary>
     public partial class RPCComponent : UserControl
     {
-        public RPCComponent()
+        private readonly RPCModel _rPCModel;
+
+        public RPCComponent(RPCModel rPCModel)
         {
+            _rPCModel = rPCModel;
+            this.DataContext = rPCModel;
             InitializeComponent();
         }
     }

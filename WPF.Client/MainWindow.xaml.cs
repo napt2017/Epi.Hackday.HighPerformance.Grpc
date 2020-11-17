@@ -33,29 +33,49 @@ namespace WPF.Client
 
         private void InitGridLayout()
         {
-            mainGridLayout.ShowGridLines = true;
+            //mainGridLayout.ShowGridLines = true;
             mainGridLayout.ColumnDefinitions.Add(new ColumnDefinition());
             mainGridLayout.ColumnDefinitions.Add(new ColumnDefinition());
 
             mainGridLayout.RowDefinitions.Add(new RowDefinition());
             mainGridLayout.RowDefinitions.Add(new RowDefinition());
 
-            var rpcComponent = new RPCComponent();
+            var rpcComponent = new RPCComponent(new Models.RPCModel 
+            {
+                Type = "Raw Socket Connection",
+                RemoteUrl="127.0.0.1",
+                Port = 1989
+            });
             mainGridLayout.Children.Add(rpcComponent);
             Grid.SetRow(rpcComponent, 0);
             Grid.SetColumn(rpcComponent, 0);
 
-            rpcComponent = new RPCComponent();
+            rpcComponent = new RPCComponent(new Models.RPCModel
+            {
+                Type = "REST API",
+                RemoteUrl="https://localhost:1990",
+                Port = 1990
+            });
             mainGridLayout.Children.Add(rpcComponent);
             Grid.SetRow(rpcComponent, 0);
             Grid.SetColumn(rpcComponent, 1);
 
-            rpcComponent = new RPCComponent();
+            rpcComponent = new RPCComponent(new Models.RPCModel
+            {
+                Type = "SOAP WebService",
+                RemoteUrl ="https://localhost:1991",
+                Port = 1991
+            });
             mainGridLayout.Children.Add(rpcComponent);
             Grid.SetRow(rpcComponent, 1);
             Grid.SetColumn(rpcComponent, 0);
 
-            rpcComponent = new RPCComponent();
+            rpcComponent = new RPCComponent(new Models.RPCModel
+            {
+                Type = "GRPC Service",
+                RemoteUrl = "https://localhost:2021",
+                Port = 2021
+            });
             mainGridLayout.Children.Add(rpcComponent);
             Grid.SetRow(rpcComponent, 1);
             Grid.SetColumn(rpcComponent, 1);

@@ -20,6 +20,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "REST.Server", "REST.Server\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SOAP.Server", "SOAP.Server\SOAP.Server.csproj", "{6773CAC8-1D15-44BD-AAE2-42DF1C89F477}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WF.Stopwatch", "WF.Stopwatch\WF.Stopwatch.csproj", "{A44A42D6-1129-4958-8694-B077BF4B22FE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -50,6 +52,10 @@ Global
 		{6773CAC8-1D15-44BD-AAE2-42DF1C89F477}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6773CAC8-1D15-44BD-AAE2-42DF1C89F477}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6773CAC8-1D15-44BD-AAE2-42DF1C89F477}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A44A42D6-1129-4958-8694-B077BF4B22FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A44A42D6-1129-4958-8694-B077BF4B22FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A44A42D6-1129-4958-8694-B077BF4B22FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A44A42D6-1129-4958-8694-B077BF4B22FE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
