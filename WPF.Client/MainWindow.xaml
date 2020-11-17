@@ -7,7 +7,7 @@
         mc:Ignorable="d"
         Title="High Performance GRPC- .NET5 App" Height="800" Width="1200"
         Loaded="Window_Loaded"
-        Padding="2 2 2 2">
+        Padding="2 2 2 2" Icon="/app-icon.ico">
     <Grid x:Name="mainGridLayout">
 
     </Grid>

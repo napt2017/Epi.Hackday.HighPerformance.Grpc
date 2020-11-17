@@ -6,4 +6,12 @@
     <UseWPF>true</UseWPF>
   </PropertyGroup>
 
+  <ItemGroup>
+    <None Remove="app-icon.ico" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="app-icon.ico" />
+  </ItemGroup>
+
 </Project>

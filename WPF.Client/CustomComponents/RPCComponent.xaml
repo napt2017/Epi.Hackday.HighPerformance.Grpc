@@ -17,6 +17,7 @@
                 <RowDefinition Height="41*"/>
                 <RowDefinition Height="41*"/>
                 <RowDefinition Height="41*"/>
+                <RowDefinition Height="41*"/>
                 <RowDefinition Height="365*"/>
             </Grid.RowDefinitions>
             
@@ -35,17 +36,40 @@
                        Grid.Row="1"/>
 
             <Button Grid.Column="0"
-                    Grid.Row="3"
+                    Grid.Row="4"
                     Content="Send Request"
                     HorizontalAlignment="Right"
                     Margin="1 1 3 1"
                     MinWidth="110" Click="Button_Click"/>
 
-            <TextBlock Text="{Binding TransferDataSize, Mode=OneWay}" Grid.Column="1" VerticalAlignment="Center" Grid.Row="2"/>
+            <TextBlock Text="{Binding TransferDataSize, Mode=OneWay}" 
+                       Grid.Column="1" 
+                       VerticalAlignment="Center" 
+                       Grid.Row="2"/>
 
+            <TextBlock Text="{Binding TotalExecutionTime, Mode=OneWay}" 
+                       Grid.Column="1" 
+                       VerticalAlignment="Center" 
+                       Grid.Row="3"/>
             <TextBlock Text="Remote Address: " FontWeight="ExtraBlack" TextAlignment="Right" VerticalAlignment="Center" Height="16"/>
             <TextBlock Text="Port: " FontWeight="ExtraBlack" TextAlignment="Right" VerticalAlignment="Center" Grid.Row="1" Height="16"/>
-            <TextBlock Text="Response Data Size (bytes): " FontWeight="ExtraBlack" TextAlignment="Right" VerticalAlignment="Center" Grid.Row="2" Margin="0,0,2,0" Grid.Column="0" Height="16"/>
+            <TextBlock Text="Response Data Size (bytes): " 
+                       FontWeight="ExtraBlack" 
+                       TextAlignment="Right" 
+                       VerticalAlignment="Center" 
+                       Grid.Row="2" 
+                       Margin="0,0,2,0" 
+                       Grid.Column="0" 
+                       Height="16"/>
+
+            <TextBlock Text="Total Execution Time (ms): " 
+                       FontWeight="ExtraBlack" 
+                       TextAlignment="Right" 
+                       VerticalAlignment="Center" 
+                       Grid.Row="3" 
+                       Margin="0,0,2,0" 
+                       Grid.Column="0" 
+                       Height="16"/>
         </Grid>
     </GroupBox>
 </UserControl>
