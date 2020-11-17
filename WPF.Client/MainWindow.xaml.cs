@@ -12,6 +12,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using WPF.Client.Models;
 
 namespace WPF.Client
 {
@@ -45,7 +46,8 @@ namespace WPF.Client
                 Type = "Raw Socket Connection",
                 RemoteUrl="127.0.0.1",
                 Port = 1989
-            });
+            }, new RawSocketActionCompute());
+
             mainGridLayout.Children.Add(rpcComponent);
             Grid.SetRow(rpcComponent, 0);
             Grid.SetColumn(rpcComponent, 0);
@@ -55,7 +57,7 @@ namespace WPF.Client
                 Type = "REST API",
                 RemoteUrl="https://localhost:1990",
                 Port = 1990
-            });
+            }, new RestApiActionCompute());
             mainGridLayout.Children.Add(rpcComponent);
             Grid.SetRow(rpcComponent, 0);
             Grid.SetColumn(rpcComponent, 1);
@@ -65,7 +67,7 @@ namespace WPF.Client
                 Type = "SOAP WebService",
                 RemoteUrl ="https://localhost:1991",
                 Port = 1991
-            });
+            }, new SoapApiActionCompute());
             mainGridLayout.Children.Add(rpcComponent);
             Grid.SetRow(rpcComponent, 1);
             Grid.SetColumn(rpcComponent, 0);
@@ -75,7 +77,7 @@ namespace WPF.Client
                 Type = "GRPC Service",
                 RemoteUrl = "https://localhost:2021",
                 Port = 2021
-            });
+            }, new GrpcActionCompute());
             mainGridLayout.Children.Add(rpcComponent);
             Grid.SetRow(rpcComponent, 1);
             Grid.SetColumn(rpcComponent, 1);

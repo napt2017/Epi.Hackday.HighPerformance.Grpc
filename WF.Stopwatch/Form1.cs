@@ -32,7 +32,7 @@ namespace WF.Stopwatch
                 }
                 else
                 {
-                    lbTime.Text = string.Format("{0:hh\\:mm\\:ss}", _stopwatch.E);
+                    //lbTime.Text = string.Format("{0:hh\\:mm\\:ss}", _stopwatch.E);
                 }
             }
         }
