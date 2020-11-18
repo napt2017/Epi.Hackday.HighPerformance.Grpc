@@ -22,9 +22,10 @@ namespace WPF.Client
 
         private async void Button_Click(object sender, System.Windows.RoutedEventArgs e)
         {
-            var (totalExecutionTime, responseSize) = await _actionComputable.ExecuteThenComputeAsync("");
+            var (totalExecutionTime, responseSize) = await _actionComputable.ExecuteThenComputeAsync(_rPCModel.RemoteUrl);
             this._rPCModel.TotalExecutionTime = totalExecutionTime;
             this._rPCModel.TransferDataSize = responseSize;
+            (sender as Button).IsEnabled = false;
         }
     }
 }

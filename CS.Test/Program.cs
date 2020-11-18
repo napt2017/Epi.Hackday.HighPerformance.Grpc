@@ -30,9 +30,17 @@ namespace CS.Test
             // Import topic
             //ImportTopicFromFile(topicRepository);
             //CallGrpc();
-            CallRest();
+            //CallRest();
+            ComputeXmlSize();
             Console.Read();
         }
+
+        static void ComputeXmlSize(string path= @"C:\Users\ngan\Desktop\hack-day-topics.xml")
+        {
+            var xmlString = File.ReadAllText(path);
+            Console.WriteLine($"Size on bytes: {System.Text.Encoding.UTF8.GetBytes(xmlString).Length}");
+        }
+
 
         static void CallRest()
         {
