@@ -13,6 +13,7 @@
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
     </PackageReference>
+    <PackageReference Include="System.ServiceModel.Http" Version="4.8.0" />
   </ItemGroup>
 
   <ItemGroup>
@@ -29,6 +30,10 @@
     <None Update="data.json">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="SOAPReferences\" />
   </ItemGroup>
 
 </Project>

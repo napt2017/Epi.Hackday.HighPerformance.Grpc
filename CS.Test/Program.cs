@@ -9,6 +9,7 @@ using System.IO;
 using System.Linq;
 using System.Net;
 using System.Runtime.Serialization.Formatters.Binary;
+using System.ServiceModel;
 using System.Text.Json;
 
 namespace CS.Test
@@ -28,11 +29,22 @@ namespace CS.Test
             //LoadAllTopic(topicRepository); 
 
             // Import topic
-            ImportTopicFromFile(topicRepository);
+            //ImportTopicFromFile(topicRepository);
             //CallGrpc();
             //CallRest();
             //ComputeXmlSize();
+
+            CallSOAP();
             Console.Read();
+        }
+
+        static void CallSOAP()
+        {
+            var binding = new BasicHttpsBinding();
+            var endpoint = new EndpointAddress("https://localhost:44365/HackdayTopic.svc");
+            var client = new HackdayTopicOperationClient(binding, endpoint);
+            var topics = client.GetAllHackdayTopic();
+            Console.WriteLine(topics);
         }
 
         static void ComputeXmlSize(string path= @"C:\Users\ngan\Desktop\hack-day-topics.xml")
