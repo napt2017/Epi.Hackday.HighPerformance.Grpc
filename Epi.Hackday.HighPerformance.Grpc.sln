@@ -14,13 +14,15 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WPF.Client", "WPF.Client\WPF.Client.csproj", "{C0D5D626-5270-4CFB-A700-02C339F5150B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GRPC.Server", "GRPC.Server\GRPC.Server.csproj", "{1789C03C-D16C-4748-856E-914DB0639BCA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GRPC.Server", "GRPC.Server\GRPC.Server.csproj", "{1789C03C-D16C-4748-856E-914DB0639BCA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "REST.Server", "REST.Server\REST.Server.csproj", "{07AC478B-46DE-462A-A6DD-2897DB7BF903}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "REST.Server", "REST.Server\REST.Server.csproj", "{07AC478B-46DE-462A-A6DD-2897DB7BF903}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SOAP.Server", "SOAP.Server\SOAP.Server.csproj", "{6773CAC8-1D15-44BD-AAE2-42DF1C89F477}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SOAP.Server", "SOAP.Server\SOAP.Server.csproj", "{6773CAC8-1D15-44BD-AAE2-42DF1C89F477}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WF.Stopwatch", "WF.Stopwatch\WF.Stopwatch.csproj", "{A44A42D6-1129-4958-8694-B077BF4B22FE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WF.Stopwatch", "WF.Stopwatch\WF.Stopwatch.csproj", "{A44A42D6-1129-4958-8694-B077BF4B22FE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SOCKET.Server", "SOCKET.Server\SOCKET.Server.csproj", "{762CBC45-FC89-4B79-85A2-259DB799A560}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -56,6 +58,10 @@ Global
 		{A44A42D6-1129-4958-8694-B077BF4B22FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A44A42D6-1129-4958-8694-B077BF4B22FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A44A42D6-1129-4958-8694-B077BF4B22FE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{762CBC45-FC89-4B79-85A2-259DB799A560}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{762CBC45-FC89-4B79-85A2-259DB799A560}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{762CBC45-FC89-4B79-85A2-259DB799A560}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{762CBC45-FC89-4B79-85A2-259DB799A560}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

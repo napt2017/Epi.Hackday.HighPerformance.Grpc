@@ -30,7 +30,7 @@ namespace REST.Server
         {
 
             services.AddControllers();
-            services.AddDbContext<EpiHackdayDbContext>(options => options.UseSqlite("Data Source=D:\\db\\hackday.db"));
+            services.AddDbContext<EpiHackdayDbContext>(options => options.UseSqlite(@"Data Source=C:\Users\TheCodeNameOne\Desktop\hackday.db"));
             services.AddScoped<IEpiHackdayRepository, EpiHackdayRepository>();
         }
 

@@ -1,13 +1,14 @@
+using DB.Access;
+using DB.Access.Repositories;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
-using SoapCore;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+using SOAP.Server.Interfaces;
+using SoapCore; 
+using System.ServiceModel; 
 
 namespace SOAP.Server
 {
@@ -18,6 +19,9 @@ namespace SOAP.Server
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddSoapCore();
+            services.AddDbContext<EpiHackdayDbContext>(options => options.UseSqlite(@"Data Source=C:\Users\TheCodeNameOne\Desktop\hackday.db"));
+            services.AddScoped<IEpiHackdayRepository, EpiHackdayRepository>();
+            services.AddScoped<IHackdayTopicOperation, SOAP.Server.HackdayTopicOperation.HackdayTopicOperation>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -37,6 +41,8 @@ namespace SOAP.Server
                     await context.Response.WriteAsync("Hello World!");
                 });
             });
+
+            app.UseSoapEndpoint<IHackdayTopicOperation>("/HackdayTopic.svc", new BasicHttpBinding(), SoapSerializer.XmlSerializer);
         }
     }
 }

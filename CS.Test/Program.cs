@@ -17,7 +17,7 @@ namespace CS.Test
     {
         static void Main(string[] args)
         {
-            var dbContextOption = new DbContextOptionsBuilder<EpiHackdayDbContext>().UseSqlite("Data Source=D:\\db\\hackday.db").Options;
+            var dbContextOption = new DbContextOptionsBuilder<EpiHackdayDbContext>().UseSqlite(@"Data Source=C:\Users\TheCodeNameOne\Desktop\hackday.db").Options;
             var dbContext       = new EpiHackdayDbContext(dbContextOption);
             var topicRepository = new EpiHackdayRepository(dbContext);
 
@@ -28,10 +28,10 @@ namespace CS.Test
             //LoadAllTopic(topicRepository); 
 
             // Import topic
-            //ImportTopicFromFile(topicRepository);
+            ImportTopicFromFile(topicRepository);
             //CallGrpc();
             //CallRest();
-            ComputeXmlSize();
+            //ComputeXmlSize();
             Console.Read();
         }
 

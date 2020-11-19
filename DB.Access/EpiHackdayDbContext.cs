@@ -19,6 +19,6 @@ namespace DB.Access
         public EpiHackdayDbContext CreateDbContext(string[] args) => new EpiHackdayDbContext(DbContextOptions());
 
         private DbContextOptions<EpiHackdayDbContext> DbContextOptions() => 
-            new DbContextOptionsBuilder<EpiHackdayDbContext>().UseSqlite("Data Source=D:\\db\\hackday.db").Options;
+            new DbContextOptionsBuilder<EpiHackdayDbContext>().UseSqlite(@"Data Source=C:\Users\TheCodeNameOne\Desktop\hackday.db").Options;
     }
 }
